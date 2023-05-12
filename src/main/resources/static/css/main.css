@@ -1,0 +1,83 @@
+/*css de la página principal*/
+@media (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+        }
+        
+}
+
+
+
+/*Galeria de imagenes*/
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+/*Galeria de imagenes*/
+.thumbnail img {
+    width: 1000px;
+    height: 320px;
+    margin-bottom: 10px;
+}
+
+/*Formulario registro*/
+.gradient-custom-2 {
+    background: linear-gradient(black, 45%, yellow);
+    }
+     body{
+        background-color: black;
+    }
+
+    .carousel {
+        margin-top: 45px;
+        
+      }
+      .carousel-item img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .banner {
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 2px solid #ccc;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+      
+      .banner img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      
+      /**/
+
+     nav{
+      margin-top:0;
+     }
+    
+    .heado{
+       margin-top:0.5rem!important ;
+    }
+    
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+  }
+  .sobre img {
+    width: 400px;
+    height: 300px;
+  }
